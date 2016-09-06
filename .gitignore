@@ -1,0 +1,16 @@
+#RB les types de fichiers que je veux faire ignorer par Git
+#  pour EOLE
+*.gif
+*.png
+*.exe
+*.dll
+*.html
+*.txt
+!**/README.txt
+*.mat
+*.fst
+#  attention pas de shell scripts
+*.sh
+Thumbs.db
+*.m.*
+
