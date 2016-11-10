@@ -1,4 +1,4 @@
-function [ ok, i,j, stat, varargout  ] = PointStatsFromWEStats( FST, Lon, Lat, Moment )
+function [ ok, i,j, stat, varargout  ] = PointStatsFromFST( FST, Lon, Lat, Moment )
 % freqs, bins
 %UNTITLED2 Summary of this function goes here
 %   Detailed explanation goes here

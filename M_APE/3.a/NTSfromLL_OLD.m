@@ -1,6 +1,12 @@
-function [ feuillet ] = NTSfromLL( lat,lon )
+function [ feuillet ] = NTSfromLL_OLD( lat,lon )
+%This is the OLD version of the function. Usage is deprecated.
+%Use rather the more complete function: NTSfromLL.
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
+disp('================================================')
+disp('Use of NTSfromLL_OLD is deprecated.')
+disp('Use rather the more complete function: NTSfromLL')
+disp('================================================')
 feuillet=[];
 lon180=wrapTo180(lon);
 lone=-48;lono=-144;
