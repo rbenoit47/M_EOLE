@@ -3,8 +3,9 @@ Tâche 1.a
 
 Les scripts fournis sont dans répertoire 
 MATLAB_APE\M_APE\1.a\scripts
-dans lequel vous pouvez lire mais pas écrire.  
-Donc vous devez recopier ce répertoire sur votre zone de travail.
+dans lequel vous pouvez lire mais pas écrire.
+Comme vous aurez à modifier certains d'entre eux, 
+vous devez recopier ce répertoire sur votre zone de travail.
 
 script principal:
 	tp1.m  
@@ -20,8 +21,15 @@ gammaFunctions.m
 Script exemple de table de fréquence bivariée:
 freqBiVar.m	(appelé par tp1.m)
 
+-----------------------------------------
+Script exemple de traitement (rose et fréquence bivariée):
+CalculExempleHoraire.m
+(il peut fonctionner avec des données horaires ou aux 10 minutes) 
+qui sont fournies dans les deux fichiers suivants:
+
 uHoraire.txt   exemple de données
 u10Min1An.txt  exemple de données
+-----------------------------------------
 
 [preTraitement] produit par preTraitement.m  .  Purger répertoire au besoin 
 [resultats]     doit exister au préalable: pour les graphiques produits  
@@ -48,7 +56,11 @@ attention ces scripts sont faits pour lire des données en format texte (txt)
 	vitesse
 	direction
 
-Si le répertoire preTraitement existe, tp1 ne réexécute PAS preTraitement. CAVEAT.
+==================================================================================
+CAVEAT:
+Si le répertoire preTraitement existe, tp1 ne réexécute PAS preTraitement.
+DONC ... éliminer le répertoire preTraitement lorsqu'on change les données à traiter.
+==================================================================================
 	
 Les données sont filtrées (preTraitement) pour éliminer 
 	les valeurs manquantes (vitesse<0 et direction=999)
