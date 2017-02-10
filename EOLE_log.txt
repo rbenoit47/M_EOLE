@@ -1,0 +1,17 @@
+commit 48b47edc527da9f8ba57848498189d0dd3d3022c
+Author: Robert Benoît <robert.benoit.47@gmail.com>
+Date:   Fri Jan 6 16:23:25 2017 -0500
+
+    Include CalculExempleHoraire.m in 1.a/README.txt
+
+commit 87a8242e7a069354a9be01aa785f1a83f727e865
+Author: Robert Benoît <robert.benoit.47@gmail.com>
+Date:   Thu Nov 10 09:48:12 2016 -0500
+
+    EOLE MATLAB codes for APE H17
+
+commit dfd236806d0aec5e789559640ae8d973803008d7
+Author: Robert Benoit <robert.benoit.47@gmail.com>
+Date:   Tue Sep 6 14:56:57 2016 -0400
+
+    E16snapshot

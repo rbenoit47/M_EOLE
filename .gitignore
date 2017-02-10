@@ -1,12 +1,14 @@
 #RB les types de fichiers que je veux faire ignorer par Git
 #  pour EOLE
 *.gif
-*.png
+# fev 2017 garder les png *.png
 *.exe
 *.dll
 *.html
-*.txt
-!**/README.txt
+# fev 2017 garder tous les .txt  *.txt
+# fev 2017 ... plus besoin de ceci  !**/README.txt
+# fev 2017 oter Demos
+Demos
 *.mat
 *.fst
 #  attention pas de shell scripts

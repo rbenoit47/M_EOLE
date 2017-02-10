@@ -1,0 +1,26 @@
+[master (root-commit) dfd2368] E16snapshot
+ 24 files changed, 2184 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Demos/demo_FSTaGoogleEarth.m
+ create mode 100644 Demos/demo_LatLon2IJ.m
+ create mode 100644 M_APE/1.a/README.txt
+ create mode 100644 M_APE/1.a/scripts/CalculExempleHoraire.m
+ create mode 100644 M_APE/1.a/scripts/calcnbins.m
+ create mode 100644 M_APE/1.a/scripts/freqBiVar.m
+ create mode 100644 M_APE/1.a/scripts/gammaFunctions.m
+ create mode 100644 M_APE/1.a/scripts/preTraitement.m
+ create mode 100644 M_APE/1.a/scripts/tp1.m
+ create mode 100644 M_APE/1.a/scripts/windRose.m
+ create mode 100644 M_APE/2.a/FST_lireUV_plusieursTemps.m
+ create mode 100644 M_APE/2.c/F_lire_UHR.m
+ create mode 100644 M_APE/2.c/PointStatsFromWEStats.m
+ create mode 100644 M_APE/2.c/roseDeVentsSimple/demoPourRoseDvents.m
+ create mode 100644 M_APE/2.c/roseDeVentsSimple/roseDvents.m
+ create mode 100644 M_APE/3.a/NTSfromLL.m
+ create mode 100644 M_APE/3.a/NTSfromLL_OLD.m
+ create mode 100644 M_APE/3.d/Graphes_part3.m
+ create mode 100644 M_APE_startup.m
+ create mode 100644 base_APE/APEgenHOMEtree.m
+ create mode 100644 base_APE/APEgetCodePath.m
+ create mode 100644 base_APE/APEhomeFIXED.zip
+ create mode 100644 base_APE/APEmsg.m
