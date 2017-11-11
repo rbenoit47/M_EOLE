@@ -108,6 +108,7 @@ D C B A
 			j=ceil((lat-latLR)/dlat);
 			i=ceil((lonLR-lon)/dlon);
 			i=max(i,1);
+            i=min(i,4);  %nov 2017 ste-sophie bug gives i=5 ...out of reg16
 			region=reg16{i+(j-1)*4};
 		case 'A'
 			disp('Arctique et Haut Arctique pas fonctionnels')

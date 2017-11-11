@@ -52,4 +52,7 @@ for i=1:nstr
     end
 end
 fprintf('\n--------------------------\n')
-%
+% change CLIMATE_PREFIX to CAN1, proper for APE project using Canadian Wind Atlas data
+% nov 2017
+setenv('WEST_CLIMATE_PREFIX','CAN1')
+fprintf('\n\nWEST_CLIMATE_PREFIX changed to CAN1 at startup for APE project\n\n')
